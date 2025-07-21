@@ -13,7 +13,7 @@ const nomeSeparado = nome.split(' ');
 const nomeSimplificado = nomeSeparado[0] + ' ' + nomeSeparado[nomeSeparado.length - 1];
 
 
-console.log(`${nome}`
-console.log('tem', altura, 'de altura e seu IMC é de', imc);
+console.log(`${nome} tem ${idade} anos, pesa ${peso} kg`);
+console.log(`tem ${altura}m de altura e seu IMC é de ${imc}`);    //('tem', altura, 'de altura e seu IMC é de', imc);
 console.log(nomeSimplificado);
 
